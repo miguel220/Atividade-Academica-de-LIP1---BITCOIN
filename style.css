@@ -1,0 +1,124 @@
+/*Tags*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+}
+
+
+p{
+	text-align: justify-all;
+	line-height: 175%;
+	color:white;
+	font-size: 15px;
+	text-shadow: 1px 1px 1px #111111;
+}
+
+h1{
+	color: #F7921C;
+	text-align: left;
+	text-shadow: 1px 1px 1px #111111;
+	margin: 0 0 50px 0;
+	padding: 0;
+}
+
+/*ID'S*/
+
+#cabeçalho{
+	background-image: linear-gradient(135deg, #011123 25%, #1c799d 100%);
+	height: 80px;
+	padding: 20px;
+}
+
+#logo{
+
+	float: left;
+}
+
+#logo img{
+	width:80px;
+	height:80px;
+}
+
+#menu {
+	margin-top: 30px;
+	float: right;
+}
+
+#menu a{
+	padding: 52px 20px;
+	text-decoration: none;
+	color: #F7921C;
+	text-shadow: 0, 0, 0, #111111;
+}
+
+#menu a:hover{
+	background-color: none;
+	color:black;
+	font-size: 105%;
+}
+
+
+#conteúdo{
+	clear: both;
+	background-color: #000000;
+	background-image: url("imagens/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	min-height: 500px;
+	padding: 50px 0 50px 0;
+}
+
+#esquerda{
+	width: 60%;
+}
+
+#direita{
+	width: 40%;
+}
+
+#rodapé{
+	clear: both;
+	background-image: linear-gradient(500deg, #011123 25%, #1c799d 100%);
+	height: 80px;
+	padding: 20px;
+}
+
+#texto{
+	width: 90%;
+	float: left;
+	color: white;
+	text-align: left;
+	font-size: 10px;
+}
+
+#descrição{
+	text-align: right;
+	font-size: 10px;
+}
+
+#logo2{
+	width: 10%;
+	float: right;
+}
+
+#logo2 img{
+	width:80px;
+	height:80px;
+}
+
+/*Classes*/
+.container{
+	width: 1000px;
+	margin: auto;
+}
+
+.efeito{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+}
